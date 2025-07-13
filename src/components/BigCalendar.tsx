@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const localizer = momentLocalizer(moment);
 
-const BigCalender = () => {
+const BigCalendar = () => {
     const [view, setView] = useState<View>(Views.WORK_WEEK);
 
     const handleOnChangeView = (selectedView: View) => {
@@ -31,4 +31,4 @@ const BigCalender = () => {
     );
 };
 
-export default BigCalender;
+export default BigCalendar;
