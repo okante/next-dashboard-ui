@@ -1,6 +1,8 @@
-const AdminPage = () => {
+
+const LoginPage = () => {
   return (
-    <div className=''> Admin Page</div>
-  );
+      <div className=''>LoginPage</div>
+  )
 }
-export default AdminPage
+
+export default LoginPage

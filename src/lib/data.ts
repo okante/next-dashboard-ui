@@ -1,7 +1,7 @@
 // TEMPORARY DATA
 
 export let role = "admin";
-
+export let applicationLocal = 'fr-FR'
 export const teachersData = [
   {
     id: 1,
